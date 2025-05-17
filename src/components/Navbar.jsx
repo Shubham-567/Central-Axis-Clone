@@ -119,7 +119,7 @@ const Navbar = () => {
 
       {/* mobile dropdown menu */}
       {isMenuOpen && (
-        <div className='lg:hidden bg-background-black-soft border-t border-border-soft p-10 space-y-6'>
+        <div className='absolute top-16 w-full lg:hidden bg-background-black-soft border-t border-border-soft p-10 space-y-6'>
           {navItems.map((item, index) => (
             <div key={index}>
               <button
