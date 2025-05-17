@@ -1,5 +1,5 @@
 import { useState } from "react";
-import logo from "../../public/logo.webp";
+import logo from "../assets/logo.webp";
 import { Menu, ChevronDown } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 
