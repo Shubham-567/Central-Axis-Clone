@@ -91,7 +91,7 @@ const CoreFeatures = () => {
           Modernizing the Digital Backbone
         </h4>
 
-        <p className='text-lg md:text-xl text-txt-gray-dark text-center'>
+        <p className='text-lg md:text-xl text-txt-gray-dark text-center tracking-tight'>
           Data center software (DCIM, BMS and EPMS) has stagnated. We've built a
           better way.
         </p>

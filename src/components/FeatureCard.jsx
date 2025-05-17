@@ -20,11 +20,11 @@ const FeatureCard = ({ title, description, features, video, index = 0 }) => {
           <h5 className='text-2xl md:text-3xl font-medium text-txt-text mb-2'>
             {title}
           </h5>
-          <p className='text-txt-gray font-normal md:text-md mb-8'>
+          <p className='text-txt-gray font-normal loading-9 md:text-lg mb-8'>
             {description}
           </p>
 
-          <ul className='flex flex-col items-start gap-3 pl-2 md:text-lg text-txt-gray-dark'>
+          <ul className='flex flex-col items-start gap-3 pl-2 text-txt-gray'>
             {features.map((item, index) => (
               <li key={index} className='flex items-center gap-4 font-normal'>
                 <CircleCheck
@@ -32,7 +32,7 @@ const FeatureCard = ({ title, description, features, video, index = 0 }) => {
                   size={24}
                   className='shrink-0 mt-1'
                 />
-                <span> {item}</span>
+                <span>{item}</span>
               </li>
             ))}
           </ul>

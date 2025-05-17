@@ -2,9 +2,10 @@
 
 @layer base {
   body {
-    background-color: #000000;
+    background-color: #09090b;
     color: #ffffff;
-    font-family: ui-sans-serif, system-ui, sans-serif;
+    font-family: ui-sans-serif, system-ui, sans-serif, Apple Color Emoji,
+      Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
   }
 
   button {
@@ -22,7 +23,7 @@
   --color-background-gray-950: #18181b;
   --color-background-black-soft: #09090b;
   --color-background-black-muted: #00000099;
-  --color-background-black: #000000;
+  --color-background-black: #09090b;
 
   /* Text */
   --color-txt-text: #ffffff;
@@ -35,6 +36,7 @@
   /* Fill */
   --color-fill-muted: #71717a;
   --color-fill-card: #18181a;
+  --color-fill-purple: #140d22;
 
   /* Borders */
   --color-border-soft: #ffffff1a;
