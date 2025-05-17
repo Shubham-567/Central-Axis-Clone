@@ -70,7 +70,7 @@ const Navbar = () => {
   };
 
   return (
-    <header className='w-full border-b border-border-dark bg-background-black z-10 backdrop-blur-xl'>
+    <header className='fixed top-0 w-full border-b border-border-dark bg-background-black/60 z-20 backdrop-blur-xl'>
       <div className='max-w-[90rem] mx-auto px-8 md:px-6 py-3 flex justify-between items-center'>
         {/* logo and name */}
         <div className='flex items-center gap-2'>
@@ -95,7 +95,7 @@ const Navbar = () => {
               {/* dropdown menu */}
 
               {hoverIndex === index && (
-                <ul className='absolute right-0 p-1 bg-background-black-soft border border-white rounded w-64 z-50'>
+                <ul className='absolute right-0 p-1 bg-background-black border border-white rounded w-64 z-30'>
                   {item.submenu.map((subItem, subIndex) => (
                     <li
                       key={subIndex}

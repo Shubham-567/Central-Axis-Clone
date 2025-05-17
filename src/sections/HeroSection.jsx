@@ -1,19 +1,20 @@
 const HeroSection = () => {
   return (
     <section className='grid gird-col-3 pb-10 items-center'>
-      <div className='absolute left-0 top-16 z-[-1] bg-background-black-muted grid h-full w-full grid-cols-[clamp(28px,10vw,120px)_auto_clamp(28px,10vw,120px)] border-y border-border-dark'>
+      <div className='absolute left-0 top-16 z-[-1] bg-background-black-muted grid h-[70vh] w-full grid-cols-[clamp(28px,10vw,120px)_auto_clamp(28px,10vw,120px)] border-y border-border-dark'>
         {/* left box */}
         <div className='col-span-1 flex h-full items-center justify-center' />
 
+        {/* middle box */}
         <div className='col-span-1 flex flex-col gap-5 h-full items-center justify-center border-x border-border-dark' />
 
         {/* right box */}
         <div className='col-span-1 flex h-full items-center justify-center' />
       </div>
-      <div className='relative z-10 flex-col divide-y divide-border-dark pt-[35px]'>
+      <div className='relative mt-16 flex-col divide-y divide-border-dark pt-[35px]'>
         <div>
           {/* headings */}
-          <div className='mx-auto flex min-h-[288px] max-w-[80vw] shrink-0 flex-col items-center justify-center gap-2 py-4 px-2 sm:px-16 lg:px-24'>
+          <div className='mx-auto flex min-h-[288px] max-w-[80vw] shrink-0 flex-col items-center justify-center gap-2 py-4 px-2 sm:px-16 lg:px-22'>
             <h1 className='max-w-screen text-center text-4xl md:text-6xl font-medium text-txt-muted loading-none tracking-[1.44px] md:tracking-[-2.16px] mb-2 md:mb-0'>
               Data Center Management Software
             </h1>
