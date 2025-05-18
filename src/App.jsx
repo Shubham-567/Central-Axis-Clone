@@ -22,8 +22,8 @@ const App = () => {
           <CallToAction />
           <FAQ />
         </div>
-        <Footer />
       </main>
+      <Footer />
     </>
   );
 };
