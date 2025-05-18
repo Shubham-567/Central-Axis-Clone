@@ -47,8 +47,7 @@ const FeatureCard = ({ title, description, features, video, index = 0 }) => {
             loop
             muted
             playsInline
-            className='w-full h-auto object-contain'
-          />
+            className='w-full h-auto object-contain'></video>
         </figure>
       </div>
     </article>

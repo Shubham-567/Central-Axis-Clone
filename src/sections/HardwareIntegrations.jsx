@@ -26,7 +26,7 @@ const HardwareIntegrations = () => {
 
   return (
     <section className='relative flex flex-col items-center gap-10 py-14 md:py-[72px] w-full overflow-hidden bg-background-black border-t border-border-dark'>
-      <h2 className='text-md font-medium text-txt-gray-dark text-center'>
+      <h2 className='text-base text-txt-gray-dark text-center'>
         Seamless integrations with any data center hardware
       </h2>
 

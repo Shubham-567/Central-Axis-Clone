@@ -15,15 +15,15 @@ const HeroSection = () => {
         <div>
           {/* headings */}
           <div className='mx-auto flex min-h-[288px] max-w-[80vw] shrink-0 flex-col items-center justify-center gap-2 py-4 px-2 sm:px-16 lg:px-22'>
-            <h1 className='max-w-screen text-center text-4xl md:text-6xl font-medium text-txt-muted loading-none tracking-[1.44px] md:tracking-[-2.16px] mb-2 md:mb-0'>
+            <h1 className='text-center text-4xl md:text-[3.9rem] font-medium leading-[1.1] tracking-[1.44px] md:tracking-[-2.16px] p-2 bg-gradient-to-r from-txt-muted via-white to-txt-muted bg-clip-text text-transparent'>
               Data Center Management Software
             </h1>
 
-            <h2 className='text-md md:text-lg text-center text-txt-gray-dark max-w-2xl mx-auto'>
+            <h2 className='text-sm md:text-base text-center text-txt-gray-dark max-w-2xl mx-auto z-2'>
               Increase uptime, reduce costs, automate operations, and stay
               compliant.
             </h2>
-            <h2 className='text-md md:text-lg text-center text-txt-gray-dark max-w-2xl mx-auto'>
+            <h2 className='text-sm md:text-base text-center text-txt-gray-dark max-w-2xl mx-auto'>
               Built for colocations, data centers, and cloud providers.
             </h2>
           </div>
@@ -33,10 +33,12 @@ const HeroSection = () => {
         <div className='flex items-start justify-center px-0 sm:px-16'>
           {/* background gradient */}
           <div
-            className='absolute inset-0 w-full h-[90vh] z-[-1] blur-[150px] pointer-events-none rounded-full
+            className='absolute inset-0 top-30 w-full h-[60vh] z-[-1] blur-[150px] pointer-events-none rounded-full
             bg-radial-[at_50%_60%] from-background-purple-soft from-10% to-transparent to-70%'></div>
 
-          <button className='min-w-xs md:min-w-sm px-6 py-4 bg-background-purple text-txt-text text-base hover:bg-background-purple/80 transition'>
+          <button
+            aria-label='request demo'
+            className='min-w-xs md:min-w-sm px-6 py-4 bg-background-purple text-txt-text text-base hover:bg-background-purple/80 transition'>
             Request Demo
           </button>
         </div>

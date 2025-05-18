@@ -71,11 +71,16 @@ const Navbar = () => {
 
   return (
     <header className='fixed top-0 w-full border-b border-border-dark bg-background-black/60 z-50 backdrop-blur-xl'>
-      <div className='max-w-[90rem] mx-auto px-8 md:px-6 py-3 flex justify-between items-center'>
+      <div className='max-w-[90rem] mx-auto px-8 md:px-8 py-3 flex justify-between items-center'>
         {/* logo and name */}
         <div className='flex items-center gap-2'>
-          <img src={logo} alt='Central Axis Log' className='w-9' />
-          <span className='font-bold text-md lg:text-2xl text-txt-text'>
+          <img
+            src={logo}
+            alt='central axis logo'
+            loading='lazy'
+            className='w-9 h-full'
+          />
+          <span className='font-bold text-md lg:text-[1.4rem] text-txt-text'>
             CentralAxis
           </span>
         </div>
@@ -88,7 +93,7 @@ const Navbar = () => {
               className='relative'
               onMouseEnter={() => setHoveredIndex(index)}
               onMouseLeave={() => setHoveredIndex(null)}>
-              <button className='p-2 text-sm hover:text-txt-gray'>
+              <button className='p-1 text-sm hover:text-txt-gray'>
                 {item.title} ▼
               </button>
 
@@ -111,6 +116,7 @@ const Navbar = () => {
 
         {/* mobile menu button */}
         <button
+          aria-label='hamburger menu'
           className='lg:hidden text-white p-2 border border-border-soft rounded'
           onClick={() => setIsMenuOpen(!isMenuOpen)}>
           <Menu size={25} />
@@ -123,6 +129,7 @@ const Navbar = () => {
           {navItems.map((item, index) => (
             <div key={index}>
               <button
+                aria-label={item.title}
                 className='flex justify-start gap-2 w-full items-center text-md text-txt-text font-medium mb-2'
                 onClick={() => toggleMobileSubMenu(index)}>
                 {item.title}
@@ -141,7 +148,7 @@ const Navbar = () => {
                     initial={{ height: 0, opacity: 1 }}
                     animate={{ height: "auto", opacity: 1 }}
                     exit={{ height: 0, opacity: 1 }}
-                    transition={{ duration: 0.3, ease: "easeInOut" }}
+                    transition={{ duration: 0.2, ease: "easeInOut" }}
                     className='overflow-hidden space-y-4 pl-2'>
                     {item.submenu.map((subItem, subIndex) => (
                       <li

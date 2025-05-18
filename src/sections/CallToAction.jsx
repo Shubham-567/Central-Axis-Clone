@@ -1,4 +1,4 @@
-import backgroundImg from "../assets/CTA-Background.png";
+import backgroundImg from "../assets/CTA-Background.webp";
 
 const CallToAction = () => {
   return (
@@ -20,7 +20,9 @@ const CallToAction = () => {
             See how CentralAxis can revolutionize your data center operations.
           </p>
 
-          <button className='px-4 py-2 rounded-md bg-background-white text-txt-dark font-semibold text-base mt-2 max-w-2xl whitespace-nowrap'>
+          <button
+            aria-label='schedule demo now'
+            className='px-4 py-2 rounded-md bg-background-white text-txt-dark font-semibold text-base mt-2 max-w-2xl whitespace-nowrap'>
             Schedule Now
           </button>
         </div>

@@ -1,6 +1,6 @@
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
-import BuiltForAi from "./sections/BuiltForAi";
+import BuiltForScale from "./sections/BuiltForScale";
 import CallToAction from "./sections/CallToAction";
 import CoreFeatures from "./sections/CoreFeatures";
 import DemoPrompt from "./sections/DemoPrompt";
@@ -18,7 +18,7 @@ const App = () => {
         <div className='lg:mx-16'>
           <CoreFeatures />
           <DemoPrompt />
-          <BuiltForAi />
+          <BuiltForScale />
           <CallToAction />
           <FAQ />
         </div>

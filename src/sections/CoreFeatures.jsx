@@ -87,7 +87,7 @@ const CoreFeatures = () => {
           Built for AI
         </h3>
 
-        <h4 className='text-txt-text text-3xl md:text-4xl font-medium text-center'>
+        <h4 className='text-txt-text text-3xl md:text-4xl font-medium text-center tracking-tight'>
           Modernizing the Digital Backbone
         </h4>
 
