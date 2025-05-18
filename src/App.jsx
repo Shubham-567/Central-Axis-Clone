@@ -1,3 +1,4 @@
+import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import BuiltForAi from "./sections/BuiltForAi";
 import CallToAction from "./sections/CallToAction";
@@ -21,6 +22,7 @@ const App = () => {
           <CallToAction />
           <FAQ />
         </div>
+        <Footer />
       </main>
     </>
   );
