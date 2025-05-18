@@ -34,7 +34,7 @@ const HardwareIntegrations = () => {
         <motion.div
           className='flex gap-12'
           style={{ whiteSpace: "nowrap" }}
-          animate={{ x: ["10%", "-50%"] }}
+          animate={{ x: ["00%", "-50%"] }}
           transition={{
             repeat: Infinity,
             repeatType: "loop",

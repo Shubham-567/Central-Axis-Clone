@@ -70,7 +70,7 @@ const Navbar = () => {
   };
 
   return (
-    <header className='fixed top-0 w-full border-b border-border-dark bg-background-black/60 z-20 backdrop-blur-xl'>
+    <header className='fixed top-0 w-full border-b border-border-dark bg-background-black/60 z-50 backdrop-blur-xl'>
       <div className='max-w-[90rem] mx-auto px-8 md:px-6 py-3 flex justify-between items-center'>
         {/* logo and name */}
         <div className='flex items-center gap-2'>

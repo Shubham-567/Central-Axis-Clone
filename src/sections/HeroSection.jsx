@@ -30,13 +30,13 @@ const HeroSection = () => {
         </div>
 
         {/* button */}
-        <div className='flex items-start justify-center px-8 sm:px-24'>
+        <div className='flex items-start justify-center px-6 sm:px-16'>
           {/* background gradient */}
           <div
-            class='absolute inset-0 w-full h-[90vh] z-[-1] blur-[150px] pointer-events-none rounded-full
+            className='absolute inset-0 w-full h-[90vh] z-[-1] blur-[150px] pointer-events-none rounded-full
             bg-radial-[at_50%_60%] from-background-purple-soft from-10% to-transparent to-70%'></div>
 
-          <button className='min-w-sm px-6 py-4 bg-background-purple text-txt-text text-base hover:bg-background-purple/80 transition'>
+          <button className='min-w-xs px-6 py-4 bg-background-purple text-txt-text text-base hover:bg-background-purple/80 transition'>
             Request Demo
           </button>
         </div>
