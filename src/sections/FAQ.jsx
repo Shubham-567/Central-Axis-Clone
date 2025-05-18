@@ -49,9 +49,9 @@ const FAQ = () => {
         </p>
       </div>
 
-      <div className='grid grid-cols-1 lg:grid-cols-3 gap-16 px-4 xl:px-22'>
+      <div className='grid grid-cols-1 lg:grid-cols-3 gap-8 lg:gap-16 px-4 xl:px-22'>
         {QNA.map(({ question, answer }, index) => (
-          <div key={index} className='flex flex-col gap-2'>
+          <div key={index} className='flex flex-col md:gap-2'>
             <p className='md:text-lg text-txt-text'>{question}</p>
             <p className='text-base text-txt-gray-dark'>{answer}</p>
           </div>
