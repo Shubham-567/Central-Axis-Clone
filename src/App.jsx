@@ -3,6 +3,7 @@ import BuiltForAi from "./sections/BuiltForAi";
 import CallToAction from "./sections/CallToAction";
 import CoreFeatures from "./sections/CoreFeatures";
 import DemoPrompt from "./sections/DemoPrompt";
+import FAQ from "./sections/FAQ";
 import HardwareIntegrations from "./sections/HardwareIntegrations";
 import HeroSection from "./sections/HeroSection";
 
@@ -18,6 +19,7 @@ const App = () => {
           <DemoPrompt />
           <BuiltForAi />
           <CallToAction />
+          <FAQ />
         </div>
       </main>
     </>
