@@ -1,5 +1,6 @@
 import Navbar from "./components/Navbar";
 import BuiltForAi from "./sections/BuiltForAi";
+import CallToAction from "./sections/CallToAction";
 import CoreFeatures from "./sections/CoreFeatures";
 import DemoPrompt from "./sections/DemoPrompt";
 import HardwareIntegrations from "./sections/HardwareIntegrations";
@@ -16,6 +17,7 @@ const App = () => {
           <CoreFeatures />
           <DemoPrompt />
           <BuiltForAi />
+          <CallToAction />
         </div>
       </main>
     </>
