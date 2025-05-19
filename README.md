@@ -1,4 +1,4 @@
-# Central Axis Clone 
+# Central Axis Clone
 
 This project is a responsive clone of the [Central Axis](https://www.centralaxis.com) landing page.  
 It closely replicates the original’s layout, typography, colors, animations, and overall performance—reflecting my best effort to recreate the design and experience with high accuracy.
@@ -38,8 +38,8 @@ It closely replicates the original’s layout, typography, colors, animations, a
 
 ## Technologies Used
 
-- React 18+
-- Tailwind CSS
+- React 19+
+- Tailwind CSS v4.1
 - Framer Motion
 - Lucide-react Icons
 
